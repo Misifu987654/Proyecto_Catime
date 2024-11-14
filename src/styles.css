@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.home {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.home h2 {
+  font-size: 2.5em;
+}
+
+.shop {
+  padding: 50px;
+  background-color: #fff;
+}
+
+.shop .products {
+  display: flex;
+  justify-content: space-around;
+}
+
+.shop .product {
+  text-align: center;
+}
+
+.cart {
+  padding: 50px;
+  background-color: #fff;
+  margin-top: 30px;
+}
+
+.contact {
+  padding: 50px;
+  background-color: #fff;
+  margin-top: 30px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}

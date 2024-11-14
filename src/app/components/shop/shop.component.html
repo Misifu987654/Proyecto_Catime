@@ -1,0 +1,12 @@
+<section id="shop" class="shop">
+    <h2>Productos Destacados</h2>
+    <div class="products">
+      <div *ngFor="let product of products" class="product">
+        <img [src]="'assets/' + product.img" alt="{{product.name}}">
+        <h3>{{product.name}}</h3>
+        <p>Precio: ${{product.price}}</p>
+        <button (click)="addToCart(product)">Añadir al carrito</button>
+      </div>
+    </div>
+  </section>
+  
